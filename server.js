@@ -1,0 +1,37 @@
+const Discord = require("discord.js");
+const fs = require("fs");
+const client = new Discord.Client({
+  autoReconnect: true
+});
+require("./turemeosta/yukleoc.js")(client);
+
+client.on("ready", () => {
+  console.log(
+    `[BOT]: ${client.user.tag} ismiyle bağlandım!`
+  );
+  client.user.setPresence({
+    activity: {
+      name: `Archex Abone Botu`,
+      url: "https://www.twitch.tv/archexmelih",
+      type: "STREAMING"
+    },
+    status: "idle"
+  });
+});
+
+client.commands = new Discord.Collection();
+client.aliases = new Discord.Collection();
+fs.readdir("./komutlar/", (err, files) => {
+  if (err) console.error(err);
+  console.log(`[BOT]: ${files.length} komut yüklenecek.`);
+  files.forEach(f => {
+    let props = require(`./komutlar/${f}`);
+    console.log(`[BOT]: ${props.config.name} komutu yüklendi.`);
+    client.commands.set(props.config.name, props);
+    props.config.aliases.forEach(alias => {
+      client.aliases.set(alias, props.config.name);
+    });
+  });
+});
+
+client.login("ODM2MjA5MTAwMTUzMDI4NjU5.YIaqaQ.XZedDvqCfqzec2n0WzAnNR6jS0E").catch(error => { console.log("token yanlış birader.") }); // .env dosyasında token yerinin karşısına token gir.
