@@ -9,7 +9,7 @@
 
 :boom: Ghost & Archéx Development!
 
-:hammer_pick: [**Ghost Development**](https://discord.gg/KMJCshWX4D)
+⚒️ [**Ghost Development**](https://discord.gg/KMJCshWX4D)
 
 **:wrench: Made by** : [ArchexMelih](https://youtube.com/c/arcehexmelih) ,
          [ArchexKaan](https://www.youtube.com/channel/UC9HFT7vVnIgf_w9kr41OIuA)  
