@@ -11,7 +11,7 @@
 
 ⚒️ [**Ghost Development**](https://discord.gg/KMJCshWX4D)
 
-**:wrench: Made by** : [ArchexMelih](https://youtube.com/c/arcehexmelih) ,
+**:wrench: Made by** : [ArchexMelih](https://youtube.com/c/archexmelih) ,
          [ArchexKaan](https://www.youtube.com/channel/UC9HFT7vVnIgf_w9kr41OIuA)  
              
  **:bulb: SSS** : https://discord.gg/qDsQzjb5gN   
