@@ -1,4 +1,4 @@
-:wave: Hello, this bot is the ** Subscriber Role Granting** infrastructure of the Archex Team. This bot **all rights reserved to us** and we will apply any necessary stolen procedures.
+:wave: Hello, this bot is the **Subscriber Role Granting** infrastructure of the Archex Team. This bot **all rights reserved to us** and we will apply any necessary stolen procedures.
 
 :wave: Merhaba bu bot Archex Ekibinin **Abone Rolü Verme** altyapısıdır. bu botun **tüm hakları bize aittir** ve çalınması durumunda gerekli işlemler uygulanacaktır.
 
